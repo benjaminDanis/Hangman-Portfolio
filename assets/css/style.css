@@ -1,0 +1,116 @@
+h1, h3{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+/*#alwaysSunny{
+	-webkit-animation-delay: .2s; 
+    animation-delay: 2s;
+}
+
+#hangmanEdit{
+	-webkit-animation-delay: .4s;  
+    animation-delay: 4s;
+}
+
+#gameBox {
+	-webkit-animation-delay: .2s; 
+    animation-delay: 6s;
+}
+*/
+
+body{
+	background-color: #FFEF4C;
+}
+#gif1{
+	margin: 0px auto;
+	width: 300px;
+	display: block;
+}
+
+#winLbl, #guessLbl {
+	padding-top: 50px;
+}
+
+#gameBox {
+
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	width: 40%;
+	padding: 15px;
+	display: block;
+	margin: 0px auto;
+	font-family: 'Permanent Marker', cursive;
+	background-color: white;
+}
+
+#lettersBox {
+
+	/*border: 3px solid black;*/
+	width: 75%;
+	padding: 15px;
+	text-align: center;
+	display: block;
+	margin: 035px auto;
+	clear: both;
+
+
+}
+
+#lettersBox:hover{
+	background-color: #FFEF4C;
+	border: 2px solid #FFEF4C;
+    color: black;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     -webkit-transition-duration: 0.2s;  
+    transition-duration: 0.2s;
+}
+
+#wordField {
+	width: 70%;
+	margin: 20px auto;
+	text-align: center;
+
+}
+
+.yeet{
+	width: 70%;
+	display: inline;
+	clear: both;
+	margin: 0px auto;
+	
+}
+
+.btn {
+	
+	width: 40%;
+	/*display: block;*/
+	margin: 0px auto;
+	clear: both;
+	font-family: 'Permanent Marker', cursive;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin-left: 29px;
+    margin-top: 10px;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.btn:hover{
+	background-color: #FFEF4C;
+	border: 2px solid #FFEF4C;
+    color: black;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn:focus {
+	outline:0;
+}

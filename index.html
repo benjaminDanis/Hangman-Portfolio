@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Sedgwick+Ave" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+	<title>Hangman</title>
+</head>
+<body>
+
+	<h1 id="alwaysSunny" class="animated fadeIn">It's Always Sunny in Philadelphia</h1>
+	<h3 id="hangmanEdit" class="animated fadeIn" >Hangman Edition</h3>
+
+	<div id="wrapper">
+	
+	<div id="gameBox" class="animated fadeIn">
+
+	<p id="rules">Guess the word based on the hint</p>
+
+	<div id="winBtns">
+
+	</div>
+	<div id="gif1">
+		<span id="hintSpan"></span>
+	</div>
+		<button type="button" id="showBtn" class="btn">Show Hint</button>
+		<button type="button" id="hideThisImage" class="btn">Hide Hint</button>
+	
+
+	
+		<div id="lettersBox">
+		A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+		</div>
+
+	<div id="gamePlay">
+		
+		<div id="wordField">
+		</div>
+<br>
+<br>
+<h3 id="guessLbl" class="yeet">Guesses Left: <span id="guesses""></span></h4>	
+	<h3 id="winLbl" class="yeet">Wins: <span id="wins"></span></h4>
+<br>
+<br>
+		<h2 id="userLbl">Your Guess: <span id="user-text"></span></h2>
+
+
+	</div>
+
+
+
+	</div>
+
+<audio controls autoplay loop>
+	<source src="assets/alwayssunnytheme.mp3" type="audio/mpeg">
+
+</audio>
+	</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
